@@ -25,6 +25,6 @@ public class Picture {
 
     @Override
     public String toString() {
-        return "Картина: " + "ім'я = " + _name + ' ' + " рік = " + _year + " автор = " + _author;
+        return "Pic: " + "name = " + _name + ' ' + " year = " + _year + " author = " + _author;
     }
 }

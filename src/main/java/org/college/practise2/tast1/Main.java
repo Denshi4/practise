@@ -13,20 +13,20 @@ public class Main {
         gal1.addPicture(pic2);
         gal1.addPicture(pic3);
 
-        gal1.set_article("Галерея " + gal1.get_name());
+        gal1.set_article("Gallery " + gal1.get_name());
         System.out.println(gal1.get_article());
 
         System.out.println(gal1.getPicture("Mona Liza"));
         System.out.println(gal1.describePicture(pic2));
 
-        System.out.println("У галереї містяться такі картини: ");
+        System.out.println("Gallery has this picture: ");
         System.out.println(gal1.getPictures().toString());
 
         gal1.removePicture(pic3);
-        System.out.println("Картини після пограбування: ");
+        System.out.println("Picture after stoll: ");
         System.out.println(gal1.getPictures().toString());
 
-        System.out.println("Кількість картин: ");
+        System.out.println("Picture Count: ");
         System.out.println(gal1.getPictureCount());
 
 

@@ -29,8 +29,9 @@ public class Gallery {
         return _picture.remove(picture);
     }
     public String describePicture(Picture picture){
-        System.out.println("В нашій галереї нещодавно з'явилася нова та бомбезна картина !! \nВас обов'язково вона зацікавить");
-        System.out.println("Зустрічайте саму картину: ");
+        System.out.println("A new bomb picture has recently appeared in our gallery!! \n" +
+                "I'm sure you'll get a kick out of it");
+        System.out.println("New Picture: ");
         return picture.toString();
     }
 
