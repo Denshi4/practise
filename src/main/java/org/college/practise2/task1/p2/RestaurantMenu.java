@@ -1,4 +1,4 @@
-package org.college.practise2.task1.t1;
+package org.college.practise2.task1.p2;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,7 @@
-package org.college.practise2.tast1;
+package org.college.practise2.task1;
+
+import org.college.practise2.task1.Gallery;
+import org.college.practise2.task1.Picture;
 
 public class Main {
     public static void main(String[] args) {

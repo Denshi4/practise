@@ -34,8 +34,10 @@ public class UsaPictureBuilder extends PictureBuilder {
     }
 
 
+
+
     public Picture build() {
-        System.out.println("You have a USA picture");
+        System.out.println("You have a USA picture (Eagle sounds)");
         return picture;
     }
 }

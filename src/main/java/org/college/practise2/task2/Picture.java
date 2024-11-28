@@ -25,6 +25,9 @@ public class Picture {
         this._canvas = _canvas;
     }
 
+    public Picture() {
+    }
+
     public String get_name() {
         return _name;
     }

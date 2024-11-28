@@ -35,7 +35,7 @@ public class UaPictureBuilder extends PictureBuilder{
 
 
     public Picture build() {
-        System.out.println("You have a UA picture");
+        System.out.println("You have a UA picture (Gorilka sounds)");
         return picture;
     }
 }

@@ -1,4 +1,4 @@
-package org.college.practise2.tast1;
+package org.college.practise2.task1;
 
 public class Picture {
     private String _name;
