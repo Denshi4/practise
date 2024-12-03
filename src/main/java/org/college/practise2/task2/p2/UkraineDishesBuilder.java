@@ -3,7 +3,6 @@ package org.college.practise2.task2.p2;
 import java.util.ArrayList;
 
 public class UkraineDishesBuilder extends DishesBuilder{
-    private Dishes dish;
 
     public UkraineDishesBuilder(Dishes dish) {
         this.dish = dish;

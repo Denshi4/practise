@@ -3,7 +3,6 @@ package org.college.practise2.task2;
 import java.util.ArrayList;
 
 public class UsaPictureBuilder extends PictureBuilder {
-    private Picture picture;
 
     public UsaPictureBuilder(Picture picture) {
         this.picture = picture;

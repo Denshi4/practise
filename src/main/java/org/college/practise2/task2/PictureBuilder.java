@@ -3,7 +3,7 @@ package org.college.practise2.task2;
 import java.util.ArrayList;
 
 public abstract class PictureBuilder {
-    private Picture picture;
+    protected Picture picture;
 
     public abstract void setBasicParams(String name, short year, String author);
     public abstract void setSizeParams(Size size);
