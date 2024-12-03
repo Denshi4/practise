@@ -2,7 +2,7 @@ package org.college.practise2.task3.p2;
 
 public class Main {
     public static void main(String[] args){
-        PictureController pc = new PictureController();
+        DishController pc = new DishController();
 
         RemoveDishCommand rm1 = new RemoveDishCommand(4);
         RemoveDishCommand rm2 = new RemoveDishCommand(8);

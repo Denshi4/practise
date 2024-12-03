@@ -2,7 +2,7 @@ package org.college.practise2.task3.p2;
 
 import java.util.ArrayList;
 
-public class PictureController {
+public class DishController {
     private ArrayList<AbstractCommand> _commandToExecute = new ArrayList<>();
     private ArrayList<AbstractCommand> _commandHistory = new ArrayList<>();
 
