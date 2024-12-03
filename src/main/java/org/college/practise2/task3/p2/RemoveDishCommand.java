@@ -1,15 +1,15 @@
 package org.college.practise2.task3.p2;
 
 public class RemoveDishCommand extends AbstractCommand {
-    private int tableNumber;
+    private int _tableNumber;
 
-    public RemoveDishCommand(int tableNumber) {
-        this.tableNumber = tableNumber;
+    public RemoveDishCommand(int roomNumber) {
+        this._tableNumber = roomNumber;
     }
 
     @Override
     public void execute() {
-        System.out.println("Dish removed into table number " + this.tableNumber);
+        System.out.println("Dish removed into table number " + this._tableNumber);
     }
 
     @Override
@@ -20,7 +20,7 @@ public class RemoveDishCommand extends AbstractCommand {
     @Override
     public String toString() {
         return "RemoveDishCommand{" +
-                "tableNumber=" + tableNumber +
+                "tableNumber=" + _tableNumber +
                 '}';
     }
 }
