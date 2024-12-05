@@ -14,12 +14,13 @@ public class Gallery {
     }
 
     public static Gallery getInstance(String name){
-        if (!_instance.containsValue(name)) {
+        if (!_instance.containsKey(name)) {
             Gallery gal = new Gallery(name);
             _instance.put(name, gal);
             return gal;
+        } else {
+            return _instance.get(name);
         }
-        return null;
     }
 
     public boolean addPicture(Picture picture){

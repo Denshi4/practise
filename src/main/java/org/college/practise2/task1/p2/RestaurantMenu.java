@@ -14,12 +14,13 @@ public class RestaurantMenu {
     }
 
     public static RestaurantMenu getInstance(String menuName){
-        if (!_instance.containsValue(menuName)) {
+        if (!_instance.containsKey(menuName)) {
             RestaurantMenu menu = new RestaurantMenu(menuName);
             _instance.put(menuName, menu);
             return menu;
+        } else {
+            return _instance.get(menuName);
         }
-        return null;
     }
 
     public boolean addDishes(Dishes dishes){
