@@ -9,7 +9,7 @@ public class UkraineDishesBuilder extends DishesBuilder{
     }
 
     @Override
-    public void setBasicParams(String name, int mass, int price) {
+    public void setBasicParams(String name, int price, int mass) {
         dish.setName(name);
         dish.setPrice(price);
         dish.setMass(mass);

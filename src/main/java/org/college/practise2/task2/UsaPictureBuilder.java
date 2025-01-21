@@ -8,7 +8,7 @@ public class UsaPictureBuilder extends PictureBuilder {
         this.picture = picture;
     }
 
-    public void setBasicParams(String name, short year, String author) {
+    public void setBasicParams(String author, short year, String name) {
         picture.set_name(name);
         picture.set_year(year);
         picture.set_author(author);
