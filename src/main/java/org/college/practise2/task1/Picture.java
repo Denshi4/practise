@@ -28,3 +28,4 @@ public class Picture {
         return "Pic: " + "name = " + _name + ' ' + " year = " + _year + " author = " + _author;
     }
 }
+

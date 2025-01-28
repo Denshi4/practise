@@ -3,10 +3,11 @@ package org.college.practise2.task5;
 public class Main {
     public static void main(String[] args) {
 
-        WindowManager manager = new WindowManager("YOOManeger", 1920, 1080, "PicWindow");
+        Window winq1 = new Window("Window", 1920, 480, "win1");
+        WindowManager manager = new WindowManager(winq1);
 
         VerticalLayout layout = new VerticalLayout("4LoveLayout", 720, 480);
-        manager.addComponent(layout);
+        manager.getWindow().addComponent(layout);
 
         layout.addComponent(new Button("ButtonFunny", "Smile", "/memPic/smileFace.png"));
         layout.addComponent(new Button("ButtonDontFunny", "Cry", "/memPic/cryBaby.png"));

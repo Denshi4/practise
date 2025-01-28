@@ -12,7 +12,7 @@ public class VerticalLayout extends WindowComponent {
 
     @Override
     public void draw() {
-        System.out.println("Drawing PriceWeight: " + name + " | " + _width + "x" + _height);
+        System.out.println("Drawing : " + name + " | " + _width + "x" + _height);
         super.draw(); //
     }
 }
